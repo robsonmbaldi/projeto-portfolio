@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 200px) /*and (max-width: 600px)*/{
+
+/*      CORES
+#D8D9CC verde bem claro
+#262518 verde escuro
+#59553E verde sofá  	
+#8C8665 bege escuro
+#0D0D0D quase preto */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body {
+    font-family: 'Roboto','Work Sans', sans-serif;
+    color: #0D0D0D;
+}
+
+/* Header */
+
+header {
+    display: flow-root;
+    background-color: #D8D9CC;
+    color: #262518;
+    flex-direction: column;
+}
+
+header > div#titulos {
+    padding: 20px;
+}
+
+header > div#titulos > h1 {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > div#titulos > h2 {
+    display: flex;
+    color: #8C8665;
+    justify-content: center;
+    font-size: 2em;
+    padding: 5px;
+}
+
+header > div#titulos > ul {
+    background-color: #D8D9CC;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 5px;
+    background-color: #8C8665;
+}
+
+header > div#titulos > ul > li > a {
+    color: #262518;
+}
+
+header > div#titulos > ul > li > a > img {
+    display: none;
+    height: 15px;  
+}
+
+/* Main */
+
+
+
+/* Footer */
+
+footer {
+    background-color: #262518;
+    margin-top: 300px;
+    color: #D8D9CC;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+footer a {
+    color: #D8D9CC;
+    font-weight: bolder;
+}
+}
